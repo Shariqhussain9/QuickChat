@@ -3,6 +3,13 @@
 
 QuickChat is a real-time group chat application built with Node.js, Express, React, and Socket.io. It allows multiple users to chat together instantly, see live typing notifications, and get started by simply entering a username. The project demonstrates full-stack, modern web development using hooks, Tailwind CSS, Socket.io-client, Vite, and more.
 
+## Tech Stack
+
+**Client:** React, TailwindCSS, socket.io-client
+
+**Server:** Node, Express, socket.io
+
+
 Features
 
 Group chat: Any number of users can chat together in real time.
@@ -17,34 +24,6 @@ Modern UI: Responsive, stylish interface powered by Tailwind CSS.
 
 Live updates: Built on React functional components using hooks.
 
-
-Tech Stack
-
-Frontend
-
-React (functional components)
-
-Hooks: useState, useEffect, useRef
-
-Vite (fast development)
-
-Socket.io-client
-
-Tailwind CSS
-
-JavaScript
-
-Backend
-
-Node.js
-
-Express
-
-Socket.io
-
-httpServer
-
-CORS
 
 How It Works
 
@@ -96,9 +75,4 @@ node index.js
 ```
 
 Make sure to update the frontend Socket.io-client URL if running on a custom backend port.
-## Tech Stack
-
-**Client:** React, TailwindCSS, socket.io-client
-
-**Server:** Node, Express, socket.io
 
